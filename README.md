@@ -4,13 +4,13 @@
 ## Instalation
 
 ```sh
-docker pull romeroyonatan/squid
+docker pull gjunming/alpine-squid
 ```
 
 ## Running
 
 ```sh
-docker run -v /etc/squid/:/etc/squid/:ro -p 3128:3128 romeroyonatan/squid
+docker run -v /etc/squid/:/etc/squid/:ro -p 3128:3128 gjunming/alpine-squid
 ```
 
 ## Configuration
